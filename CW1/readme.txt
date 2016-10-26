@@ -1,6 +1,6 @@
 ___________________________________________
 ~~~ My Music Playlist Catalogue Web App ~~~
-�ơơơơơơơơơơơơơơơơơơơơơơơơơơơơơơơơơơơơơơơơơơơ�
+-------------------------------------------
 In order to run my web app, run Levinux system,
 navigate to /home/tc/SET09103/CW1/src
 and enter following command: python run.py
