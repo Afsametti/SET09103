@@ -1,5 +1,5 @@
 ___________________________________________
-~~~ My Music Playlist Catalogue Web App ~~~
+~~~ Cage the Elephant Collection Web App ~~~
 -------------------------------------------
 In order to run my web app, run Levinux system,
 navigate to /home/tc/SET09103/CW1/src
