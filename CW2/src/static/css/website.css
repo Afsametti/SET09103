@@ -1,0 +1,37 @@
+/* Tiny Carousel */
+#slider1 { height: 330px; overflow:hidden; padding:0; margin:0px 0px 0px;z-index: 200;position: relative;  }
+#slider1 img{ }
+#slider1 h3{ padding: 0px 0 0 0;  font-weight: normal !important; font-size: 14px!important;}
+#slider1 h3 a:hover {color: #19a5da !important;}
+#slider1 p{ padding: 0px 0 9px 0;  margin: 10px 0 10px 0; display: block;}
+#slider1 h2 { width: 120px; height: 20px; padding:10px 0; margin:-19px auto 0 auto; display: block;text-align: center; z-index: 900;background: url(../images/background.png);}
+#slider1 .viewport {position: relative; z-index: 120; border: 1px solid #eaeaea; background: #fff; margin:0 auto;  float: left; width:920px; height:310px; overflow: hidden; position: relative; }
+#slider1 .buttons { -webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;display: block; float:right;height: 35px; background: #fff; width: 12px;text-indent:-999em; overflow: hidden;  position: relative; }
+#slider1 .prev { position: relative; z-index: 121;top: 50px; left: 6px;border-bottom: 1px solid #eaeaea;border-top: 1px solid #eaeaea;border-left: 1px solid #eaeaea;background: #fff url(../images/l_arrow.png) center no-repeat; margin:0px 5px 0px 1px; float: left;  }
+#slider1 .next {  position: relative; z-index: 121;top: 50px; right: 7px;border-bottom: 1px solid #eaeaea;border-top: 1px solid #eaeaea;border-right: 1px solid #eaeaea;background: #fff url(../images/r_arrow.png) center no-repeat; margin:0px 0 0px 0;  float: right;}
+#slider1 .prev:hover { position: relative; z-index: 121;top: 50px; left: 6px; border-bottom: 1px solid #eaeaea;border-top: 1px solid #eaeaea;border-left: 1px solid #eaeaea;background: #fff url(../images/l_arrow_h.png) center no-repeat; margin:0px 5px 50px 1px;  }
+#slider1 .next:hover {  position: relative; z-index: 121;top: 50px; right: 7px;border-bottom: 1px solid #eaeaea;border-top: 1px solid #eaeaea;border-right: 1px solid #eaeaea;background: #fff url(../images/r_arrow_h.png) center no-repeat; margin:0px 0 50px 0;  }
+#slider1 .disable { visibility: visible; }
+#slider1 .overview { list-style: none; position: absolute; padding: 0; margin: 0; width:auto; left: 0; top: 0; }
+#slider1 .overview li{ float: left; margin: 0 5px 0 0; padding:0; height: auto; width:auto;}
+.center_small_box{margin: 0 0px 0 0; padding: 0px; width: 150px; margin-top: 20px; margin-right: 25px; text-align: center;}
+.center_small_box.firstbox {margin-left: 20px;}
+
+/* responsive width */
+@media screen and (min-width:480px) and (max-width:800px) {
+  /* Target landscape smartphones, portrait tablets, narrow desktops  */
+#slider1 .viewport { margin:0 100px; padding:0;  width:470px; height:230px; overflow: hidden; position: relative; }
+}
+
+@media screen and (max-width:479px) {
+  /* Target portrait smartphones */
+#slider1 .viewport { margin:0 10px 0 0; padding:0; float: left; width:230px; height:230px; overflow: hidden; position: relative; }
+}
+@media all and (orientation: landscape) {
+  /* Target device in landscape mode */
+}
+
+@media all and (orientation: portrait) {
+  /* Target device in portrait mode */
+}
+/* END responsive width */
