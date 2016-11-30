@@ -6,6 +6,13 @@ app = Flask(__name__)
 def index():
 	return render_template('index.html', title='Mies fanpage | Home'), 200
 
+#Biography
+@app.route('/biography/')
+def mies_biography():
+	return render_template('biography.html', title='Mies fanpage | Biography'), 200
+
+
+
 #Contact
 @app.route('/contact/')
 def mies_contact():
